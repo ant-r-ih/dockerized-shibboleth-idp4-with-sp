@@ -107,6 +107,7 @@
         <AttributeRule attributeID="uid" permitAny="true" />
         <AttributeRule attributeID="eduPersonPrincipalName" permitAny="true" />
         <AttributeRule attributeID="mail" permitAny="true" />
+        <AttributeRule attributeID="eduPersonEntitlementForEduroamFedID" permitAny="true" />
     </AttributeFilterPolicy> 
     
 </AttributeFilterPolicyGroup>

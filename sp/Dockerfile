@@ -29,7 +29,7 @@ COPY conf/shibboleth2.xml /etc/shibboleth/
 # テストSP用のPHPファイルをコンテナにコピーする。
 RUN mkdir /var/www/html/secure
 
-COPY app/testsp.php /var/www/html/secure
+#COPY app/testsp.php /var/www/html/secure
 
 # certsディレクトリに置いてある証明書をコンテナにコピーする。
 # コンテナ側ではこの証明書を優先して使うようにスクリプトで制御する。
