@@ -114,7 +114,7 @@ list of possible components and their options.
 
 <!-- -->
     <AttributeDefinition xsi:type="Mapped" id="eduPersonEntitlementForEduroamFedID">
-        <InputAttributeDefinition ref="uid" />
+        <InputDataConnector ref="myLDAP" attributeNames="uid" />
         <DefaultValue passThru="false"/>
         <AttributeEncoder xsi:type="SAML1String" name="urn:mace:dir:attribute-def:eduPersonEntitlement" encodeType="false" />
         <AttributeEncoder xsi:type="SAML2String" name="urn:oid:1.3.6.1.4.1.5923.1.1.1.7" friendlyName="eduPersonEntitlement" encodeType="false" />

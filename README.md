@@ -12,3 +12,6 @@ cd ..
 '''
 docker-compose up -d
 '''
+
+id:test001
+password:password

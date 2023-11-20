@@ -29,4 +29,5 @@ services:
       - 10443:10443
     volumes:
       - ./sp/app:/var/www/html/secure
-      - ./sp/log:/var/log/shibboleth
+      - ./sp/shibboleth:/var/log/shibboleth
+      - ./sp/httpd:/var/log/httpd
